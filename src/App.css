@@ -1,0 +1,60 @@
+.container-header {
+  background-color: #ffc10759;
+  margin: 20px 120px;
+  height: 100px;
+}
+
+.container-header .wp-form {
+  padding: 10px;
+}
+
+.container-header .wp-form .customBtn {
+  background-color: #ffc107;
+  width: 120px;
+  margin-top: 43px;
+  border-color: #ffc107;
+  font-weight: 600;
+}
+
+.container-body {
+  margin: 10px 300px;
+}
+
+.container-body .wp-border {
+  padding: 15px 10px;
+  border-top: 2px solid red;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+}
+
+.container-body .wp-border:last-child {
+  border-bottom: 2px solid red;
+}
+
+.container-body .wp-border .image {
+  width: 160px;
+  height: 170px;
+}
+
+.container-body .wp-border .title {
+  text-transform: uppercase;
+  color: red;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container-body .wp-border .price {
+  color: green;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container-body .wp-border .area {
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+.container-body .wp-border .city {
+  color: blue;
+  font-weight: 700;
+}
